@@ -8,10 +8,10 @@ namespace Lab3
 {
     public class Ministry
     {
-        List<University> universities;
-        Dictionary<string, List<int>> universitiesGrades;
-        Dictionary<string, double> universitiesAvgGrade;
-        Dictionary<string, double> financeUniversities;
+        List<University> universities; // список університетів
+        Dictionary<string, List<int>> universitiesGrades; // назва університету, список оцінок
+        Dictionary<string, double> universitiesAvgGrade; // назва університету, середній бал
+        Dictionary<string, double> financeUniversities; // назва університету, сума фінансів на рік
 
 
         public Ministry()

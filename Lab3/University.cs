@@ -10,7 +10,7 @@ namespace Lab3
     public class University
     {
         private string name; //назва університету
-        private Address address; // адреса універистету
+        private Address address; // адреса університету
         List<Faculty> faculties; //список факультетів
         private int numberSpecials; // кількість спеціальностей
         private int numberStudents; // кількість студентів за всіма спеціальностями 
